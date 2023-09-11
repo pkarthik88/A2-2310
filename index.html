@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>PeerPrep Question Service</title>
+        <script src="question_service.js" defer></script>
+        <link rel="stylesheet" href="question_service.css">
+    </head>
+    <body>
+        <nav>
+        <button class="homePage button" title="Click for HomePage">HomePage</button>
+        <button class="addQuestion button" title="Add a new question to list">Add New Question</button>
+        <!-- Q1 Add code to create rest of the navigation buttons-->
+        
+        <!-- End of Q1-->
+        </nav>
+
+        <div id="homepage" style='display:none'>
+        </div>
+
+        <div id="addQuestionForm" style="display: none;">
+            <p>Enter question details:</p>
+            <label for="questionTitle">Question Title</label>
+            <br>
+            <input type="text" id="questionTitle" class="questionTitle" style="width:30%">
+            <br>
+            <!-- Q2: Write HTML code to create fields to add new questions-->
+
+
+            <!-- End of Q2-->
+        </div>
+
+        <div id="removeQuestionForm" style="display: none;">
+            <p>Enter question title to be removed</p>
+            <!-- Q3: Write HTML code to delete questions given their ID-->
+
+
+            <!-- End of Q3-->
+        </div>
+
+        <div id = "list" style="display: none;">
+            <table id="list_table">
+                <tr>
+                    <th class="sno">Serial Number</th>
+                    <!-- Q4: Write HTML code to Complete the rest of the table header-->
+                    
+                    <!-- End of Q4-->
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+body, html {
+    width: 100%;
+    margin: 0;
+    font-family: Calibri;
+    font-size:large;
+}
+.button {
+    width: 25%;
+    background-color: darkslategrey;
+    color: whitesmoke;
+    float:left;
+    padding: 2px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+/* Q6: Write code below to perform some basic animation (like hover) on buttons*/
+
+
+/*End of Q6*/
+
+div {
+    padding-top: 30pt;
+    border-radius: 4px;
+    border-color: black;
+}
+
+/* Q6: Write your CSS code to beautify the table (body, header, row, etc.)*/
+
+
+/*End of Q6*/
+
+
+/* Q6: Write your CSS code to any other styles*/
+
+
+/*End of Q6*/
